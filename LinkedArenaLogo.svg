@@ -1,0 +1,25 @@
+<svg viewBox="0 0 264 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Círculo externo -->
+  <circle cx="132" cy="134" r="126" stroke="#7746D9" stroke-width="12"/>
+  <!-- Corrente esquerda -->
+  <rect x="18" y="111" width="40" height="46" rx="16" fill="none" stroke="#7746D9" stroke-width="12"/>
+  <rect x="42" y="124" width="13" height="20" rx="6.5" fill="#fff"/>
+  <!-- Corrente direita -->
+  <rect x="206" y="111" width="40" height="46" rx="16" fill="none" stroke="#7746D9" stroke-width="12"/>
+  <rect x="209" y="124" width="13" height="20" rx="6.5" fill="#fff"/>
+  <!-- Torre central -->
+  <g stroke="#7746D9" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Base da torre -->
+    <path d="M78 210 Q132 175 186 210"/>
+    <path d="M90 210 Q132 190 174 210"/>
+    <!-- Corpo da torre -->
+    <rect x="94" y="110" width="76" height="62" rx="0"/>
+    <!-- Porta -->
+    <rect x="122" y="148" width="20" height="40" rx="10"/>
+    <!-- Topo da torre (três merlões) -->
+    <path d="M94 110 V90 H114 V110"/>
+    <path d="M114 90 H132 V110"/>
+    <path d="M132 90 H150 V110"/>
+    <path d="M150 90 H170 V110"/>
+  </g>
+</svg>

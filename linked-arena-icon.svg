@@ -1,0 +1,18 @@
+<svg viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="128" cy="128" r="120" stroke="#7746D9" stroke-width="12"/>
+  <!-- Corrente esquerda -->
+  <rect x="20" y="106" width="32" height="44" rx="16" stroke="#7746D9" stroke-width="12"/>
+  <rect x="44" y="122" width="16" height="12" fill="#fff"/>
+  <rect x="204" y="106" width="32" height="44" rx="16" stroke="#7746D9" stroke-width="12"/>
+  <rect x="204" y="122" width="16" height="12" fill="#fff"/>
+  <!-- Torre -->
+  <path d="M76 196V116H100V88H116V116H140V88H156V116H180V196" stroke="#7746D9" stroke-width="12" stroke-linejoin="round"/>
+  <rect x="100" y="68" width="16" height="20" fill="#fff" stroke="#7746D9" stroke-width="12"/>
+  <rect x="140" y="68" width="16" height="20" fill="#fff" stroke="#7746D9" stroke-width="12"/>
+  <rect x="116" y="68" width="24" height="12" fill="#fff"/>
+  <!-- Base da torre -->
+  <path d="M76 196 C128 160, 180 196, 180 196" stroke="#7746D9" stroke-width="12" fill="none"/>
+  <path d="M86 196 Q128 180 170 196" stroke="#7746D9" stroke-width="12" fill="none"/>
+  <!-- Porta da torre -->
+  <rect x="116" y="148" width="24" height="48" rx="12" fill="none" stroke="#7746D9" stroke-width="12"/>
+</svg>

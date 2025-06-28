@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        workspace: [shared, backend, frontend]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: yarn install --immutable
+      - name: Lint (root)
+        run: yarn lint || true
+        if: matrix.workspace == 'shared'
+      - name: Build shared package
+        run: yarn workspace shared build
+        if: matrix.workspace == 'shared'
+      - name: Test workspace
+        run: yarn workspace ${{ matrix.workspace }} test
